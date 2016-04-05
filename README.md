@@ -1,10 +1,10 @@
-# Robin Grow Fork (modified for comma separated multi-channel listening, colors, channel selection! Amazing!)
+# Parrot - Robin Grow Fork, modified for comma separated multi-channel listening, colors, channel selection, Twitch Emotes, and more!
 
 **THIS FORK WAS MADE WITHIN soKukuneli**
 
 This is not the main branch! But it has some great additional features!
 
-Special thanks to OrangeredStilton, Voltaek, and dashed.
+Special thanks to OrangeredStilton, Voltaek, Dashed, lost_penguin, Daegalus, Wakafanykai123, Stormagnet, AviN456 and all our testers.
 
 ## Installation
 Install a userscript extension such as greasemonkey or tampermonkey:  
@@ -12,12 +12,12 @@ Click here: http://tampermonkey.net
 
 
 Then, click this link to install the script:  
-https://github.com/5a1t/robin-grow/raw/master/robin.user.js
+https://github.com/5a1t/parrot/raw/master/robin.user.js
 
 If you get a bunch of code instead of it installing, you can copy and paste the code as a new script in greasemonkey/tampermonkey.
 
 You can view the source code or contribute at:   
-https://github.com/vartan/robin-grow
+https://github.com/5a1t/parrot
 
 Public Suggestion / Bug List:
 http://piratepad.net/Zg3MJL40Qh
@@ -31,15 +31,16 @@ http://piratepad.net/Zg3MJL40Qh
 6. Chat links are clickable.
 7. Dropdown menu for different chat channels.
 8. Visuals rework, complete with font size, spacing, clearing, and padding.
-9. Supports unicode!
-10. Global username mentions
+9. Option to enable unicode!
+10. Global username mentions.
 11. Twitch.tv emotes!
+12. Tab-Based Chatting!
 
-## Updates (times Pacific time)
+## Updates
 
     0.2: Using grow command instead of clicking stuff. Sends command when page is loaded, and also every minute just in case.
     0.3: Also informs the page about the script
-    0.4: 10:26AM, Is now smart enough to detect if you've already voted for grow and won't spam the vote.
+    0.4: Is now smart enough to detect if you've already voted for grow and won't spam the vote.
     0.5: Automatic reload on no activity
     0.7: Now shows useful information at the top of the page as well.
     0.8: fixed time bug, will rejoin on a failed chatroom
@@ -58,6 +59,9 @@ http://piratepad.net/Zg3MJL40Qh
      2.0.3: Adds a font size box. Global username mentions (dashed). Removed useless settings. 
      2.0.4+: Chat clear button. Toggleable Unicode support. Twitch emotes (anadee).
     2.1: Simplified settings box (dashed). Lots of cleaning up. Username alignment setting.
+    2.2: Tabbed chat! Switched the name to parrot around this time. Even more code cleanup (voltaek).
+    2.3: Moved settings button, new stats thingy when buttons are hidden (dashed).
+    2.4: Channel switching hotkeys (dashed).
 
 ## Screenshots
 
